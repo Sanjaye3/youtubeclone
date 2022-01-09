@@ -1,0 +1,94 @@
+ /* *,*::before,*::after{
+     box-sizing: border-box;
+     font-family:arial;
+ } */
+body{
+    margin:0;
+}
+.video-section{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 3rem 1rem;
+    padding: 3rem ;
+    margin: .5rem;
+    border-top: 4px solid white;
+}
+.video-section:first-child{
+    border-top:none;
+}
+.video-container{
+    display:flex;
+    flex-direction: column;
+} 
+.thumbnail{
+    position:relative; 
+    display:flex;
+}
+/* .thumbnail::before{
+    content: attr(data-duration);
+    position: relative;
+    background-color:black;
+    color:white;
+    right:5px;
+    bottom:5px;
+    padding:.1em .3em;
+    /* border-radius:.3em; */
+    font-size:.9rem;
+} */
+.thumbnail-image{
+    width:100%;
+    height:100%;
+    background-color:grey
+}
+.channel-icon{
+    margin-right:5px ;
+    width:36px;
+    height: 36px;
+}
+.video-details{
+    display:flex;
+    flex-direction: column;
+}
+.video-title{
+    color:black;
+    font-weight: bold;
+    text-decoration:none ;
+}
+.video-channel-name{
+    color:grey;
+    text-decoration: none;
+}
+.video-data{
+    color:rgba(94, 89, 89, 0.322)(128, 128, 128, 0.692);
+}
+.header{
+    display:flex;
+    justify content:space-between;
+    align-items:center;
+}
+.youtube-logo{
+    height:70px;
+}
+.search-box{
+    display:flex;
+    width:100%;
+}
+.search-input{
+    width:75%;
+    padding:10px;
+}
+.menu-icons{
+    display:flex;
+    width:10px;
+    height:10px;
+    flex-direction: column;
+}
+.links{
+    display:block;
+    /* margin-right:10px; */
+    width:100%;
+    padding;10px 20px;
+    align-items:;
+    font
+     
+}
